@@ -1,7 +1,7 @@
 let handler = async m => m.reply(`
-╭─「 Donasi • Pulsa 」
-│ •  [0895-3303-79186]
-│ •  [0896-5436-0447]
+╭─「 Gopay • Pulsa 」
+│ •  [Scan QR = https://telegra.ph/file/6439ec9f133065305dde2.jpg]
+│ •  [0889-5377-665]
 ╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
