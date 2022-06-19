@@ -1,7 +1,7 @@
 {
-    "name": "Aine-Bot",
-    "version": "07.06.98",
-    "description": "Customizable WhatsApp Bot",
+    "name": "PINO MD",
+    "version": "1.0",
+    "description": "Bot Whatsapp Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
