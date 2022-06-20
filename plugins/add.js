@@ -65,7 +65,7 @@ module.exports = handler
 
 
 
-/*let handler = async (m, { conn, text, participants }) => {
+let handler = async (m, { conn, text, participants }) => {
     let _participants = participants.map(user => user.id)
     let users = (await Promise.all(
         text.split(',')
@@ -88,4 +88,4 @@ handler.group = true
 handler.botAdmin = true
 
 module.exports = handler
-*/
+
