@@ -29,18 +29,19 @@ let handler = async (m, { conn, text, participants }) => {
     } : {})
   }
 }
-handler.help = ['add', '+'].map(v => 'o' + v + ' @user')
-handler.tags = ['owner']
-handler.command = /^(oadd|o\+)$/i
-handler.owner = true
+handler.help = ['add', '+'].map(v => v + ' nomor,nomor')
+handler.tags = ['admin']
+handler.command = /^(add|\+)$/i
+handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = true
 handler.private = false
 
-handler.admin = false
+handler.admin = true
 handler.botAdmin = true
 
 handler.fail = null
+handler.limit = true
 
 module.exports = handler
